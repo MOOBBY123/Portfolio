@@ -206,6 +206,12 @@ h2 {
     margin-left: 10%;
 }
 
+@media (max-width: 300px) {
+    .about-h1 {
+        
+    }
+}
+
 @media (max-width: 320px) {
     .nav-icons {
         padding-left: 0 !important;
@@ -223,6 +229,10 @@ h2 {
         margin: 0 auto !important;
         text-align: center !important;
 
+    }
+
+    .nav-link-footer {
+        display: none;
     }
 }
 
